@@ -11,7 +11,7 @@ pipeline {
         stage('build') {
                     steps {
                         echo 'Building'
-                        git credentialsId: 'myGitHub', url: 'https://github.com/bhadaniramit/batcodingchallenge.git'
+                        git branch: 'master',credentialsId: 'myGitHub', url: 'https://github.com/bhadaniramit/batcodingchallenge.git'
                     }
                 }
                 stage('Deploy') {
