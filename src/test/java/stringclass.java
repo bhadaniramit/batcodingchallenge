@@ -1,6 +1,14 @@
+
+
 public class stringclass {
 
+    String myName = "Ramit Bhadani";
     public static void main(String[] args) {
-        System.out.println("I will use this class for String Challenges");
+        stringclass string_class = new stringclass();
+        string_class.replace();
+    }
+
+    public void replace(){
+        System.out.println( myName.replace('a','y'));
     }
 }
