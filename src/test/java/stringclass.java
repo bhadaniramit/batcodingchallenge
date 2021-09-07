@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class stringclass {
 
-    static String myName = "Ramitaeeee";
+    static String myName = "Ramitaeeee Bhadaniuuu";
 
     public static void main(String[] args) {
         stringclass string_class = new stringclass();
